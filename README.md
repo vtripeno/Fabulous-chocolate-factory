@@ -18,7 +18,6 @@ This project is a study case of some spring and kotlin libs
         - [ ] Contract tests
     - [ ] Produce chocolate
         - [ ] Trace id
-        - [ ] 
     - [ ] Chocolate packaging
         - [ ] Internship Event
         - [ ] Trace id
