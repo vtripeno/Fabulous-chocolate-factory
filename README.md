@@ -9,7 +9,6 @@ This project is a study case of some spring and kotlin libs
 (TODO)
 
 ### TODO LIST
-
 - [ ] Chocolate Factory
     - [ ] Inventory control - Gets ingredients from the store
         - [ ] Feing 
@@ -38,6 +37,7 @@ This project is a study case of some spring and kotlin libs
     - [ ] Log aggregator
     - [ ] Resilience 4J
     - [ ] Container test
+    - [ ] Implement Automated E2E test
 
 
 ![Estudo fabbrica de chocolate](https://user-images.githubusercontent.com/9336327/130460549-dc6b73e6-edcc-46fe-9408-da39989f5463.png)
