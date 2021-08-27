@@ -9,6 +9,9 @@ This project is a study case of some spring and kotlin libs
 (TODO)
 
 ### TODO LIST
+- [ ] ALL
+    - [ ] Implement DETEKT
+    - [ ] Implement Automated E2E test
 
 - [ ] Chocolate Factory
     - [ ] Inventory control - Gets ingredients from the store
