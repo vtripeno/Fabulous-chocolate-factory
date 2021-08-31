@@ -6,6 +6,9 @@
 This project is a study case of some spring and kotlin libs
 
 # Getting Started
+
+To check if your application is up, use the health check route: `GET` [`http://localhost:8080/health`](http://localhost:8080/health)
+
 (TODO)
 
 ### TODO LIST
@@ -42,3 +45,6 @@ This project is a study case of some spring and kotlin libs
 
 ![Estudo fabbrica de chocolate](https://user-images.githubusercontent.com/9336327/130460549-dc6b73e6-edcc-46fe-9408-da39989f5463.png)
 
+
+### Used libraries:
+* **Actuator**: A tool with monitoring features (used to delivery `/health` route)
