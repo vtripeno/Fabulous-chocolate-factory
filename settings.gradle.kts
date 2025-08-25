@@ -1,7 +1,7 @@
 rootProject.name = "Fabulous-chocolate-factory"
 
 // Incluindo módulos
-include(":Ingredient-store")
+//include(":Ingredient-store")
 //include(":Chocolate-factory")      // exemplo de outro módulo futuro
 //include(":Order-service")           // outro módulo opcional
 
