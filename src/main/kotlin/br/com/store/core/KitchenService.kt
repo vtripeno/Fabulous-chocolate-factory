@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service
 
 @Service
 class KitchenService {
-    fun heatMixture(): String {
+    fun heatMixture(mixture: String): String {
         return "Heating the mixture..."
     }
 
