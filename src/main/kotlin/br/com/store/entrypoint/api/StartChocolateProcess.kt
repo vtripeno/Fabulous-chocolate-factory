@@ -47,6 +47,13 @@ class StartChocolateProcess(
         val cooling: Mono<ChocolateStepEvent> = pouring.flatMap {
             monoToEvent(Mono.fromCallable { kitchenService.coolDown() }
                 .delayElement(Duration.ofSeconds(3)))
+                .flatMap { result ->
+                    if (1 == 1) {
+                        monoToEvent(Mono.just("Cooling finished"))
+                    } else {
+                        Mono.empty()  // não emite nada
+                    }
+                }
         }
 
         val packaging: Mono<ChocolateStepEvent> = pouring.flatMap {
